@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МБОУ СОШ №56 - Главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <h1>МБОУ СОШ №56</h1>
+                    <p>Официальный сайт</p>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <form action="/search/" method="get">
+                            <input type="text" name="q" placeholder="Поиск...">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="accessibility">
+                        <button id="accessibility-btn"><i class="fas fa-eye"></i> Версия для слабовидящих</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="/">Главная</a></li>
+                    <li class="dropdown">
+                        <a href="#">Сведения об организации <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/index/osnovnye_svedenija/0-34">Основные сведения</a></li>
+                            <li><a href="/index/struktura_i_organy_upravlenija/0-14">Структура и органы управления</a></li>
+                            <li><a href="/index/dokumenty/0-15" >Документы</a></li>
+                            <li><a href="/index/obrazovanie/0-16" > Образование</a></li>
+                            <li><a href="/index/obrazovatelnye_standarty/0-17" > Руководство</a></li>
+                            <li><a href="/index/rukovodstvo_pedagogicheskij_nauchno_pedagogicheskij_sostav/0-18" > Педагогический состав</a></li>
+                            <li><a href="/index/materialno_tekhnicheskoe_obespechenie_i_osnashhennost_obrazovatelnogo_processa/0-19" > Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда</a></li>
+                            <li><a href="/index/platnye_obrazovatelnye_uslugi/0-21" > Платные образовательные услуги</a></li>
+                            <li><a href="/index/finansovo_khozjajstvennaja_dejatelnost/0-22" > Финансово-хозяйственная деятельность</a></li>
+                            <li><a href="/index/vakantnye_mesta_dlja_priema_perevoda/0-23" > Вакантные места для приема (перевода) обучающихся</a></li>
+                            <li><a href="/index/stipendii_i_inye_vidy_materialnoj_podderzhki/0-20" > Стипендии и меры поддержки обучающихся</a></li>
+                            <li><a href="/index/mezhdunarodnoye_sotrudnichestvo/0-91" > Международное сотрудничество</a></li>
+                            <li><a href="http://mbou56nt.ru/index/14_organizacija_pitanija_v_obrazovatelnoj_organizacii/0-153" > Организация питания в образовательной организации</a></li>
+                            <li><a href="/index/14_obrazovatelnye_standarty_i_trebovanija/0-162" > Образовательные стандарты и требования</a></li>
+                        </ul>
+                    <li><a href="/index/profsojuz/0-45">Профсоюз</a></li>
+                    <li><a href="/index/kontakty/0-8">Контакты</a></li>
+                    <li><a  href="/index/distancionnoe-obuchenie-distancionnoye_obucheniye/0-84" ><span>Дистанционное обучение </span></a></li>
+                    <li><a href="/index/kontakty/0-8">Зачисление в первый класс</a></li>
+                    <li class="dropdown">
+                        <a href="#"> Другое <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="other-menu-item"><a  href="/index/0-3" ><span>ОБРАТНАЯ СВЯЗЬ</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/shkolnaja_sluzhba_primirenija/0-81" ><span>Школьная служба примирения</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/vserossijskaja_olimpiada_shkolnikov/0-83" ><span>Всероссийская олимпиада школьников</span></a><ul>
+                    <li class="other-menu-item"><a  href="/index/protokoly-vsosh/0-120" ><span>Протоколы ВСОШ</span></a></li></ul></li>
+                    <li class="other-menu-item"><a  href="/index/nezavisimaja-ocenka-kachestva/0-112" ><span>Независимая оценка качества</span></a></li>
+                    <li class="other-menu-item"><a  href="https://vk.com/mbou_sosh56" ><span>Вконтакте</span></a></li>
+                    <li class="other-menu-item"><a  href="https://sites.google.com/view/sk-alligator56" ><span>ШСК "Аллигатор"</span></a></li>
+                    <li class="other-menu-item"><a  href="https://sites.google.com/view/vpk-gru56" ><span>ВПК "Не_иГРУшки"</span></a></li>
+                    <li class="other-menu-item"><a  href="http://#" ><span>Профилактическая работа</span></a><ul>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/dorozhnaja_bezopasnost/0-80" ><span>Дорожная безопасность</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/informacionnaja-bezopasnost/0-125" ><span>Информационная безопасность</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/pozharnaja_bezopasnost/0-90" ><span>Пожарная безопасность</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/protivodejstvie-moshennichestvu/0-126" ><span>Противодействие мошеничеству</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/http_mbou56nt_ru_index_profilaktikaterrorizma_0_88/0-88" ><span>Профилактика терроризма и экстремизма</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/profilaktika-upotreblenija-alkogolnoj-produkcii/0-118" ><span> Профилактика деструктивного поведения</span></a><ul>
+                    <li class="other-menu-item"><a  href="http://#" ><span>Нормативно-правовое обеспечение</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/profilaktika/0-130" ><span>Профилактика</span></a></li></ul></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/ehpidemiologicheskaja-bezopasnost/0-128" ><span>Эпидемиологическая безопасность</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/protivodejstvie_korrupcii/0-77" ><span>Противодействие коррупции</span></a></li></ul></li>
+                    <li class="other-menu-item"><a  href="/index/nastavnichetvo/0-121" ><span>Наставничеcтво</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/dop/0-124" ><span>Дополнительное образование</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/akkreditacionnyj_monitoring/0-137" ><span>Аккредитационный мониторинг</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/deti_s_ovz/0-143" ><span>Дети с ОВЗ</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/istorija_shkoly/0-30" ><span>История школы</span></a></li>
+                    <li class="other-menu-item"><a  href="http://mbou56nt.ru/index/bessmertnyj_polk_shkoly_56/0-85" ><span>Бессмертный полк школы 56</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/gosudarstvennaja_itogovaja_attestacija/0-161" ><span>Государственная итоговая аттестация</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/god_zashhitnika_otechestva/0-193" ><span>80 лет Великой Победе</span></a></li>
+                    <li class="other-menu-item"><a  href="/index/prodolzhitelnaja_i_aktivnaja_zhizn/0-194" ><span>Продолжительная и активная жизнь</span></a></li></ul></div>
+
+                    </li>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const mainNav = document.querySelector('.main-nav');
+                            const headerHeight = document.querySelector('.header').offsetHeight;
+                            document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+                        });
+                    </script>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="container">
+            <img src="http://mbou56nt.ru/24-25/im/2025g.jpg" alt="80 лет Великой Победе" class="banner-img">
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="main-section">
+                    <div class="feedback-widget">
+
+                    </div>
+                    
+                    <article class="news-article">
+                        <h2 class="section-title">Новости школы</h2>
+                        <div class="news-grid">
+                            <!-- Блоки новостей -->
+                            <div class="news-item">
+                                <div class="news-date">19.03.2025</div>
+                                <h3 class="news-title">Чем опасен VPN?</h3>
+                                <div class="news-gallery">
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_1.png" alt="">
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_2.jpg" alt="">
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_3.jpg" alt=""><br>
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_4.jpg" alt="">
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_5.jpg" alt="">
+                                    <img class="IMG-NEWS-BR" src="IMG/VPN_6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-date">19.03.2025</div>
+                                <h3 class="news-title">Уважаемые родители! Обновилась информация о приеме в 1 классы  <a href=""><span class="MoreFC">Подробней</span></a></h3>
+                                <div class="news-gallery">
+
+                                </div>
+                            </div>
+                            <!-- Остальные новости -->
+                        </div>
+                        <a href="/index/arkhiv_novostej/0-154" class="read-more">Архив новостей</a>
+                    </article>
+                </section>
+                
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+                        <!-- <h3 class="widget-title">Электронный дневник <br><h4>для учеников</h4></h3> -->
+                        <a href="https://dnevnik.egov66.ru/login/" target="_blank">
+                            <div class="ed"><img class="ecp"src="IMG/ецп.png" alt=""><h4>ЭЛЕКТРОННЫЙ ДНЕВНИК</h4></div>
+                        </a>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <!-- <h3 class="widget-title">Электронный журнал <br><h4>для учителей</h4></h3> -->
+                        <a href="https://jurnal.egov66.ru/login" target="_blank">
+                            <div class="ej"><img class="eji"src="IMG/еж.png" alt=""><h4>ЭЛЕКТРОННЫЙ ЖУРНАЛ</h4></div>
+                        </a>
+                    </div>
+                    
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>МБОУ СОШ №56</h3>
+                    <p>© 2025 Все права защищены</p>
+                    <p>e-mail: mousosh56@bk.ru</p>
+                    <p>Телефон: 8(3435)47-85-58</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Мы в социальных сетях</h3>
+                    <a href="https://vk.com/mbou_sosh56" target="_blank" class="social-icon"><i class="fab fa-vk"></i></a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://edu.gov.ru" target="_blank">Минпросвещения РФ</a></li>
+                        <li><a href="https://minobraz.egov66.ru" target="_blank">Минобразования СО</a></li>
+                        <li><a href="https://upro-ntagil.ru" target="_blank">Управление образования НТ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
